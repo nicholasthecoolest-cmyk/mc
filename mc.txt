@@ -129,5 +129,5 @@ console.log('-vf "movie=$(magick hald:6 ' + code + ppm + '.ppm; echo ' + ppm + '
 }} {code:{get:code}} {sh:
 load {iv}
 
-ffmpeg -i $FILE_1 {get:code} ./output/$(basename movie.${FILE_1##*.})}}}}
-```
+ffmpeg -i $FILE_1 {get:code} ./output/$(basename movie.${FILE_1##*.})}}}
+
